@@ -1,0 +1,25 @@
+.videoCard{
+    width: 300px;
+    height: 140px;
+    margin-bottom: 100px;
+}
+.videoCard__thumbnail{
+    width: 300px;
+    height: 140px; 
+    object-fit: contain;
+}
+
+.videoCard__videoInfo{
+    display:flex;
+}
+.videoCard__videoInfo > Avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
+.videoCard__videoInfo__videoText{
+    margin-left: 15px;
+}
+.videoCard__videoInfo__videoText > h4{
+    font-size: 14px;
+    color: gray;
+}

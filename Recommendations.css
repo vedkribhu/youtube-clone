@@ -1,0 +1,12 @@
+.recommendations{
+    flex: 0.85;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommendations > h2{
+    margin: 20px 80px;
+    font-size: large;
+    font-weight: 500;
+}

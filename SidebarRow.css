@@ -1,0 +1,45 @@
+.sidebarrow{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    height: 40px;
+}
+
+.sidebarrow__icon{
+    color: grey;
+    font-size: 25px !important;
+    
+}
+
+.sidebarrow__text{
+    /* color: grey; */
+    flex: 1;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.sidebarrow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebarrow:hover > .sidebarrow__icon{
+    color: red;
+}
+.sidebarrow:hover > .sidebarrow__text{
+    font-weight: bold;
+    color: gray;
+    font-size: large ;
+}
+
+.sidebarrow.selected{
+    background-color: lightgray;
+}
+.sidebarrow.selected > .sidebarrow__icon{
+    color: red;
+}
+.sidebarrow.selected > .sidebarrow__text{
+    font-weight: bold;
+}
